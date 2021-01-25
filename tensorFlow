@@ -79,7 +79,10 @@ public class UGAuto extends LinearOpMode {
         robot.hardwareInit(hardwareMap);
         initVuforia();
         initTfod();
-
+        
+        /*
+         *What does this if() do?
+         */
         if (tfod != null) {
             tfod.activate();
         }
